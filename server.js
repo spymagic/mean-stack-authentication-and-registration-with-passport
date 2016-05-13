@@ -6,7 +6,7 @@ var passport      = require('passport');
 var cookieParser  = require('cookie-parser');
 var session       = require('express-session');
 var mongoose      = require('mongoose');
-// test
+var a;
 mongoose.connect('mongodb://localhost/passport-example');
 
 app.use(bodyParser.json());
